@@ -46,6 +46,14 @@ Email-and-SMS-Spam-Detection-Project
 | ML Spam Detection | 214,843 emails | `Logistic Regression` `BernoulliNB` `MultinomialNB` `XGBoost` `AdaBoost` | [📘 View Notebook](https://github.com/ShaikhBorhanUddin/Email-and-SMS-Spam-Detection-Project/blob/main/ML_Spam_Detection_Dataset_214843.ipynb) |
 | ML Spam Detection | 5,572 SMS |  `Logistic Regression` `SVC` `Random Forest` `BernoulliNB` `MultinomialNB` `XGBoost` `AdaBoost` `MLPClassifier` | [📘 View Notebook](https://github.com/ShaikhBorhanUddin/Email-and-SMS-Spam-Detection-Project/blob/main/ML_Spam_Detection_Dataset_5572.ipynb) |
 
+## 🔄 Project Workflow
+
+## 📈 Results
+
+## 🧩 Confusion Matrices
+
+## 🔥 LIME Visualizations
+
 ## 🧠 Key Takeaway
 - Text preprocessing with NLTK and Scikit-learn
 - CNN architecture for text classification
@@ -53,3 +61,4 @@ Email-and-SMS-Spam-Detection-Project
 - Performance metrics: Accuracy, Precision, Recall, F1-Score
 - Visualizations via Tableau
 
+## 
