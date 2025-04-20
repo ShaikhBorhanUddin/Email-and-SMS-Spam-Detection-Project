@@ -61,4 +61,12 @@ Email-and-SMS-Spam-Detection-Project
 - Performance metrics: Accuracy, Precision, Recall, F1-Score
 - Visualizations via Tableau
 
-## 
+## Technology Used
+
+## Future Development
+
+## Licence
+
+## Contact
+
+
