@@ -34,8 +34,8 @@ This project focuses on detecting spam messages from both **emails** and **SMS t
 |---------|---------|------------|------|
 | CNN Spam Detection | 214,843 emails | Deep Learning (CNN) | [📘 View Notebook](https://github.com/ShaikhBorhanUddin/Email-and-SMS-Spam-Detection-Project/blob/main/CNN_Spam_Detection_Dataset_214843.ipynb) |
 | CNN Spam Detection | 5,572 SMS | Deep Learning (CNN) | [📘 View Notebook](https://github.com/ShaikhBorhanUddin/Email-and-SMS-Spam-Detection-Project/blob/main/CNN_Spam_Detection_Dataset_5572.ipynb) |
-| ML Spam Detection | 214,843 emails | Logistic Regression, SVM, etc. | [📘 View Notebook](https://github.com/ShaikhBorhanUddin/Email-and-SMS-Spam-Detection-Project/blob/main/ML_Spam_Detection_Dataset_214843.ipynb) |
-| ML Spam Detection | 5,572 SMS | Logistic Regression, SVM, etc. | [📘 View Notebook](https://github.com/ShaikhBorhanUddin/Email-and-SMS-Spam-Detection-Project/blob/main/ML_Spam_Detection_Dataset_5572.ipynb) |
+| ML Spam Detection | 214,843 emails | Logistic Regression, BernoulliNB, MultinomialNB, XGBoost, and AdaBoost | [📘 View Notebook](https://github.com/ShaikhBorhanUddin/Email-and-SMS-Spam-Detection-Project/blob/main/ML_Spam_Detection_Dataset_214843.ipynb) |
+| ML Spam Detection | 5,572 SMS |  Logistic Regression, SVC, Random Forest, BernoulliNB, MultinomialNB, XGBoost, and AdaBoost, and MLPClassifier | [📘 View Notebook](https://github.com/ShaikhBorhanUddin/Email-and-SMS-Spam-Detection-Project/blob/main/ML_Spam_Detection_Dataset_5572.ipynb) |
 
 ---
 
