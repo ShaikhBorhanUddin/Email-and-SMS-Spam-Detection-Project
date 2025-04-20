@@ -1,4 +1,4 @@
-<h1 align="left">📧 Email and SMS Spam Detection with Machine Learning</h1>
+<h1 align="left">📧 Spam Detection with Machine Learning</h1>
 
 <p align="left">
   <img src="https://img.shields.io/badge/Made%20With-Colab-blue?logo=googlecolab&logoColor=white&label=Made%20With" alt="Made with Colab">
