@@ -21,7 +21,10 @@ This project focuses on detecting spam messages from both **emails** and **SMS t
 ## 📂 Datasets
 
 **[`SMS Spam Collection Dataset`](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset)**
+The SMS Spam Collection is a set of SMS tagged messages that have been collected for SMS Spam research. It contains one set of SMS messages in English of 5,574 messages, tagged acording being ham (legitimate) or spam. The files contain one message per line. Each line is composed by two columns: v1 contains the label (ham or spam) and v2 contains the raw text.
+
 **[`190K Spam-Ham Email Dataset`](https://www.kaggle.com/datasets/meruvulikith/190k-spam-ham-email-dataset-for-classification)**
+This dataset contains over 190,000+ emails labeled as either spam or ham (non-spam). Each email is represented by its text content along with its corresponding label. The dataset provides a comprehensive collection of emails, categorized as either spam or ham, intended to facilitate research and development in email classification algorithms. With a vast corpus of emails, this dataset offers ample opportunities for training and evaluating machine learning models for effective spam detection.
 
 ## 📁 Project Structure
 
