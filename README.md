@@ -23,7 +23,7 @@ This project focuses on detecting spam messages from both **emails** and **SMS t
 
 ## 📂 Datasets Used
 
-- 📥 [SMS Spam Collection Dataset (5,572 records)](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset)
+- 📥 [SMS Spam Collection Dataset](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset)
 - 📥 [190K Spam-Ham Email Dataset](https://www.kaggle.com/datasets/meruvulikith/190k-spam-ham-email-dataset-for-classification)
 
 ---
