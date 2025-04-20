@@ -19,9 +19,9 @@
 ```bash
 Email and Spam Detection with Machine Learning
 │
-├── Dataset/                                    # Contains raw CSV files
+├── Dataset/                                    #
 ├── src/
-├── Images/                                     # Tableau Visualization
+├── Images/                                     #
 ├── requirements.txt
 ├── Licence
 └── README.md                                   # Overvier of the project
