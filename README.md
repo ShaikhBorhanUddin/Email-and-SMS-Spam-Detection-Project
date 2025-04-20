@@ -13,31 +13,14 @@
   <img src="https://img.shields.io/badge/Project-Completed-brightgreen" alt="Project Status">
 </p>
 
----
-
 ## 📌 Overview
 
 This project focuses on detecting spam messages from both **emails** and **SMS text messages** using machine learning and deep learning models. Two separate datasets are utilized to train and evaluate various models including traditional ML classifiers and CNN-based deep learning models.
-
----
 
 ## 📂 Datasets
 
 **[`SMS Spam Collection Dataset`](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset)**
 **[`190K Spam-Ham Email Dataset`](https://www.kaggle.com/datasets/meruvulikith/190k-spam-ham-email-dataset-for-classification)**
-
----
-
-## 🚀 Models & Experiments
-
-| Notebook | Dataset | Model Type | GitHub Link |
-|---------|---------|------------|------|
-| CNN Spam Detection | 214,843 emails | `Customized CNN` | [📘 View Notebook](https://github.com/ShaikhBorhanUddin/Email-and-SMS-Spam-Detection-Project/blob/main/CNN_Spam_Detection_Dataset_214843.ipynb) |
-| CNN Spam Detection | 5,572 SMS | `Customized CNN` | [📘 View Notebook](https://github.com/ShaikhBorhanUddin/Email-and-SMS-Spam-Detection-Project/blob/main/CNN_Spam_Detection_Dataset_5572.ipynb) |
-| ML Spam Detection | 214,843 emails | `Logistic Regression` `BernoulliNB` `MultinomialNB` `XGBoost` `AdaBoost` | [📘 View Notebook](https://github.com/ShaikhBorhanUddin/Email-and-SMS-Spam-Detection-Project/blob/main/ML_Spam_Detection_Dataset_214843.ipynb) |
-| ML Spam Detection | 5,572 SMS |  `Logistic Regression` `SVC` `Random Forest` `BernoulliNB` `MultinomialNB` `XGBoost` `AdaBoost` `MLPClassifier` | [📘 View Notebook](https://github.com/ShaikhBorhanUddin/Email-and-SMS-Spam-Detection-Project/blob/main/ML_Spam_Detection_Dataset_5572.ipynb) |
-
----
 
 ## 📁 Project Structure
 
@@ -52,8 +35,17 @@ Email-and-SMS-Spam-Detection-Project
 ├── Licence                 # MIT License
 └── README.md               # Overview of the project
 ```
----
-## 🧠 Key Features
+
+## 🚀 Models & Experiments
+
+| Notebook | Dataset | Model Type | GitHub Link |
+|---------|---------|------------|------|
+| CNN Spam Detection | 214,843 emails | `Customized CNN` | [📘 View Notebook](https://github.com/ShaikhBorhanUddin/Email-and-SMS-Spam-Detection-Project/blob/main/CNN_Spam_Detection_Dataset_214843.ipynb) |
+| CNN Spam Detection | 5,572 SMS | `Customized CNN` | [📘 View Notebook](https://github.com/ShaikhBorhanUddin/Email-and-SMS-Spam-Detection-Project/blob/main/CNN_Spam_Detection_Dataset_5572.ipynb) |
+| ML Spam Detection | 214,843 emails | `Logistic Regression` `BernoulliNB` `MultinomialNB` `XGBoost` `AdaBoost` | [📘 View Notebook](https://github.com/ShaikhBorhanUddin/Email-and-SMS-Spam-Detection-Project/blob/main/ML_Spam_Detection_Dataset_214843.ipynb) |
+| ML Spam Detection | 5,572 SMS |  `Logistic Regression` `SVC` `Random Forest` `BernoulliNB` `MultinomialNB` `XGBoost` `AdaBoost` `MLPClassifier` | [📘 View Notebook](https://github.com/ShaikhBorhanUddin/Email-and-SMS-Spam-Detection-Project/blob/main/ML_Spam_Detection_Dataset_5572.ipynb) |
+
+## 🧠 Key Takeaway
 - Text preprocessing with NLTK and Scikit-learn
 - CNN architecture for text classification
 - Traditional ML classifiers: Logistic Regression, Naive Bayes, SVM
