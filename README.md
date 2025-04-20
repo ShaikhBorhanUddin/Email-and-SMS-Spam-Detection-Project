@@ -13,6 +13,7 @@
   <img src="https://img.shields.io/badge/Project-Completed-brightgreen" alt="Project Status">
 </p>
 
+![Dashboard](https://github.com/ShaikhBorhanUddin/Spam-Detection-With-Machine-Learning/blob/main/images/title_image.png?raw=true)
 ## 📌 Overview
 
 This project focuses on detecting spam messages from both **emails** and **SMS text messages** using machine learning and deep learning models. Two separate datasets are utilized to train and evaluate various models including traditional ML classifiers and CNN-based deep learning models.
