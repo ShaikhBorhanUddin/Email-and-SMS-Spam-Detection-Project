@@ -2,15 +2,16 @@
 <p align="left">
   <img src="https://img.shields.io/badge/Made%20With-Colab-blue?logo=googlecolab" alt="Made with Colab">
   <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT">
-  <img src="https://img.shields.io/github/repo-size/your-username/your-repo-name" alt="Repo Size">
-  <img src="https://img.shields.io/github/last-commit/your-username/your-repo-name" alt="Last Commit">
-  <img src="https://img.shields.io/github/issues/your-username/your-repo-name" alt="Issues">
+  <img src="https://img.shields.io/github/repo-size/ShaikhBorhanUddin/Email-and-SMS-Spam-Detection-Project" alt="Repo Size">
+  <img src="https://img.shields.io/github/last-commit/ShaikhBorhanUddin/Email-and-SMS-Spam-Detection-Project" alt="Last Commit">
+  <img src="https://img.shields.io/github/issues/ShaikhBorhanUddin/Email-and-SMS-Spam-Detection-Project" alt="Issues">
   <img src="https://img.shields.io/badge/Data%20Visualization-Python-yellow?logo=python" alt="Data Visualization: Python">
   <img src="https://img.shields.io/badge/Version%20Control-Git-orange?logo=git" alt="Version Control: Git">
   <img src="https://img.shields.io/badge/Host-GitHub-black?logo=github" alt="Host: GitHub">
-  <img src="https://img.shields.io/github/forks/your-username/your-repo-name?style=social" alt="Forks">
+  <img src="https://img.shields.io/github/forks/ShaikhBorhanUddin/Email-and-SMS-Spam-Detection-Project?style=social" alt="Forks">
   <img src="https://img.shields.io/badge/Project-Completed-brightgreen" alt="Project Status">
 </p>
+
 
 [`Spam_Detection_Dataset_5572`](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset)
 
