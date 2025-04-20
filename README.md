@@ -30,6 +30,11 @@ This dataset contains over 190,000+ emails labeled as either spam or ham (non-sp
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Spam-Detection-With-Machine-Learning/blob/main/images/large_dataset_viz.png?raw=true)
 
+<p align="center">
+  <img src="https://github.com/ShaikhBorhanUddin/Spam-Detection-With-Machine-Learning/blob/main/images/small_dataset_viz.png?raw=true" alt="Small Dataset Visualization" width="49.5%" />
+  <img src="https://github.com/ShaikhBorhanUddin/Spam-Detection-With-Machine-Learning/blob/main/images/large_dataset_viz.png?raw=true" alt="Large Dataset Visualization" width="49.5%" />
+</p>
+
 ## 📁 Project Structure
 
 ```bash
@@ -46,8 +51,8 @@ Email-and-SMS-Spam-Detection-Project
 
 ## 🚀 Models & Experiments
 
-| Notebook | Dataset | Model Type | GitHub Link |
-|---------|---------|------------|------|
+| Notebook | Dataset | Model Type | GitHub Link | Colab Link |
+|---------|---------|------------|------|--------|
 | CNN Spam Detection | 214,843 emails | `Customized CNN` | [📘 View Notebook](https://github.com/ShaikhBorhanUddin/Email-and-SMS-Spam-Detection-Project/blob/main/CNN_Spam_Detection_Dataset_214843.ipynb) |
 | CNN Spam Detection | 5,572 SMS | `Customized CNN` | [📘 View Notebook](https://github.com/ShaikhBorhanUddin/Email-and-SMS-Spam-Detection-Project/blob/main/CNN_Spam_Detection_Dataset_5572.ipynb) |
 | ML Spam Detection | 214,843 emails | `Logistic Regression` `BernoulliNB` `MultinomialNB` `XGBoost` `AdaBoost` | [📘 View Notebook](https://github.com/ShaikhBorhanUddin/Email-and-SMS-Spam-Detection-Project/blob/main/ML_Spam_Detection_Dataset_214843.ipynb) |
