@@ -56,15 +56,21 @@ All test were done on google colab environment. Since `SMS Spam Collection Datas
 
 ## 📈 Results
 
+Results from all tests are summarised in this section.
+
 <p align="center">
   <img src="https://github.com/ShaikhBorhanUddin/Spam-Detection-With-Machine-Learning/blob/main/images/accuracy_5572.png?raw=true" alt="Accuracy on 5.5K Dataset" width="49.5%" />
   <img src="https://github.com/ShaikhBorhanUddin/Spam-Detection-With-Machine-Learning/blob/main/images/accuracy_190K.png?raw=true" alt="Accuracy on 190K Dataset" width="49.5%" />
 </p>
 
+For `SMS Spam Collection Dataset`, most models (bar chart on left) showed more than 95% accuracy, with MLPClassifier performing the best (97.95% accuracy). AdaBoost performed a decent 93.84% accuracy. For `190K Spam-Ham Email Dataset`, Logistic Regression, XGBoost and MultinomialNB performed with more than 95% accuracy, Logistic Regression performing the best (97.83%). AdaBoost as usual performed the lowest (with 84.44% accuracy).
+
 <p align="center">
   <img src="https://github.com/ShaikhBorhanUddin/Spam-Detection-With-Machine-Learning/blob/main/images/CNN_cm_accuracy_loss_5572.png?raw=true" alt="CNN Accuracy, Loss & Confusion Matrix (5.5K Dataset)" width="49.5%" />
   <img src="https://github.com/ShaikhBorhanUddin/Spam-Detection-With-Machine-Learning/blob/main/images/CNN_acc_190K.png?raw=true" alt="CNN Accuracy (190K Dataset)" width="49.5%" />
 </p>
+
+The images above show results for customized CNN models (left bar chart for `SMS Spam Collection Dataset` and right for `190K Spam-Ham Email Dataset`). For both cases, CNN showed high classification accuracy (over 98%). However, for `190K Spam-Ham Email Dataset`, gradual increase of loss fuction over epochs were observed.
 
 ## 🧩 Confusion Matrices
 
