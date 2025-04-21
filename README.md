@@ -74,26 +74,34 @@ The images above show results for customized CNN models (left bar chart for `SMS
 
 ## 🧩 Confusion Matrices
 
+Confusion matrix generated for all models are included in this section.
+
 <p align="center">
   <img src="https://github.com/ShaikhBorhanUddin/Spam-Detection-With-Machine-Learning/blob/main/images/cm_5572.png?raw=true" alt="Confusion Matrix (5.5K Dataset)" width="52.82%" />
   <img src="https://github.com/ShaikhBorhanUddin/Spam-Detection-With-Machine-Learning/blob/main/images/cm_190K.png?raw=true" alt="Confusion Matrix (190K Dataset)" width="45%" />
 </p>
+
+The image on the left shows all 8 machine learning model's confusion matrix for `SMS Spam Collection Dataset`. It is evident that all models struggled to identify spams (due to imbalanced dataset). The image on right shows 5 machine learning model's confusion matrix for `190K Spam-Ham Email Dataset`. Logistic regression, MultinomialNB and XGBoost showed excellent performance on classification due to large and balanced dataset.
 
 <p align="center">
   <img src="https://github.com/ShaikhBorhanUddin/Spam-Detection-With-Machine-Learning/blob/main/images/cnn_cm_5572.png?raw=true" alt="CNN Confusion Matrix (5.5K Dataset)" width="48.29%" />
   <img src="https://github.com/ShaikhBorhanUddin/Spam-Detection-With-Machine-Learning/blob/main/images/cnn_cm_190K.png?raw=true" alt="CNN Confusion Matrix (190K Dataset)" width="49.5%" />
 </p>
 
+Confusion Matrix for CNN model are shown in above 2 images. From the images it is evident that, size of dataset impacts deep learning model's classification capability.
+
 ## 🔥 LIME Visualizations
+
+Numerous visualization were generated with Lime for CNN model. Two sample visualizations are included in this section.
 
 <p align="center">
   <img src="https://github.com/ShaikhBorhanUddin/Spam-Detection-With-Machine-Learning/blob/main/images/lime_ham.png?raw=true" alt="LIME Ham Explanation" width="49.5%" />
   <img src="https://github.com/ShaikhBorhanUddin/Spam-Detection-With-Machine-Learning/blob/main/images/lime_spam.png?raw=true" alt="LIME Spam Explanation" width="49.5%" />
 </p>
 
-The model predicts this message as not spam with 100% confidence because multiple key features strongly align with patterns seen in legitimate messages. For example, `feature_53 = 643.00` falls within a range the model associates with not_spam (between 89 and 1399), and `feature_81 = 1632.00` exceeds a high threshold (>1339), further reinforcing the not_spam label. Additionally, `feature_41 = 2391.00` and `feature_74 = 213.00` contribute positively toward not_spam. Although a few features like `feature_66 = 1156.00` and `feature_51 = 1.00` show some alignment with spam patterns, their influence is minimal compared to the stronger opposing signals. As a result, the cumulative contribution of the key features leads the model to confidently classify the message as not spam.
+The model predicts this message (visualization shown on left image) as not spam with 100% confidence because multiple key features strongly align with patterns seen in legitimate messages. For example, `feature_53 = 643.00` falls within a range the model associates with not_spam (between 89 and 1399), and `feature_81 = 1632.00` exceeds a high threshold (>1339), further reinforcing the not_spam label. Additionally, `feature_41 = 2391.00` and `feature_74 = 213.00` contribute positively toward not_spam. Although a few features like `feature_66 = 1156.00` and `feature_51 = 1.00` show some alignment with spam patterns, their influence is minimal compared to the stronger opposing signals. As a result, the cumulative contribution of the key features leads the model to confidently classify the message as not spam.
 
-The model predicts this message as spam with 100% confidence due to the strong influence of multiple features that match known spam patterns. Key features like `feature_67 = 118.00`, `feature_60 = 590.00`, `feature_91 = 130.00`, and `feature_83 = 135.00` fall into specific ranges that the model has learned are highly indicative of spam. Additionally, `feature_41 = 0.00` and `feature_53 = 0.00` contribute further support, signaling a lack of characteristics typical in legitimate messages. Although a couple of features—such as `feature_56 = 0.00` and `feature_87 = 11.00` suggest non-spam behavior, their impact is weak compared to the dominant spam-aligned features. This strong cumulative signal drives the model to confidently classify the message as spam.
+The model predicts this message (visualization shown on right image) as spam with 100% confidence due to the strong influence of multiple features that match known spam patterns. Key features like `feature_67 = 118.00`, `feature_60 = 590.00`, `feature_91 = 130.00`, and `feature_83 = 135.00` fall into specific ranges that the model has learned are highly indicative of spam. Additionally, `feature_41 = 0.00` and `feature_53 = 0.00` contribute further support, signaling a lack of characteristics typical in legitimate messages. Although a couple of features—such as `feature_56 = 0.00` and `feature_87 = 11.00` suggest non-spam behavior, their impact is weak compared to the dominant spam-aligned features. This strong cumulative signal drives the model to confidently classify the message as spam.
 
 ## 🧠 Key Takeaway
 - Text preprocessing with NLTK and Scikit-learn
