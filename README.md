@@ -69,7 +69,7 @@ All test were done on google colab environment. Since `SMS Spam Collection Datas
 ## 🧩 Confusion Matrices
 
 <p align="center">
-  <img src="https://github.com/ShaikhBorhanUddin/Spam-Detection-With-Machine-Learning/blob/main/images/cm_5572.png?raw=true" alt="Confusion Matrix (5.5K Dataset)" width="52.78%" />
+  <img src="https://github.com/ShaikhBorhanUddin/Spam-Detection-With-Machine-Learning/blob/main/images/cm_5572.png?raw=true" alt="Confusion Matrix (5.5K Dataset)" width="52.82%" />
   <img src="https://github.com/ShaikhBorhanUddin/Spam-Detection-With-Machine-Learning/blob/main/images/cm_190K.png?raw=true" alt="Confusion Matrix (190K Dataset)" width="45%" />
 </p>
 
