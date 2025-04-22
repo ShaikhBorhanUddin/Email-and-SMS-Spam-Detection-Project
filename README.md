@@ -16,7 +16,11 @@
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Spam-Detection-With-Machine-Learning/blob/main/images/title_image_mod3.png?raw=true)
 ## 📌 Overview
 
-This project focuses on detecting spam messages from both **emails** and **SMS text messages** using machine learning and deep learning models. Two separate datasets are utilized to train and evaluate various models including traditional ML classifiers and CNN-based deep learning models.
+This project focuses on building a robust spam detection system using both machine learning and deep learning techniques, targeting two distinct types of data: SMS messages and emails. The goal is to classify incoming messages as either "spam" or "ham" (not spam) with high accuracy, precision, and efficiency. Two publicly available datasets were used:
+- `SMS Spam Collection Dataset` – A smaller (but imbalanced) dataset ideal for initial testing and benchmarking of classic machine learning models.
+- `190K Spam-Ham Email Dataset` – A much larger and more complex dataset, offering a real-world scenario to test scalability and deep learning capabilities.
+
+The project explores a variety of machine learning algorithms including Multinomial and Bernoulli Naive Bayes, Logistic Regression, SVC, Random Forest, XGBoost, AdaBoost and MLPClassifier. It also implements a custom Convolutional Neural Network (CNN) model to extract deep semantic patterns from text, especially effective on longer email content. Performance was evaluated using metrics like accuracy, precision, recall, F1-score, and confusion matrices. Experiments were conducted on Google Colab, leveraging both CPU and A100 GPU environments depending on dataset size and model complexity. The final deliverables include a comparative analysis of model performance, detailed visualizations, and recommendations for real-world spam filtering solutions.
 
 ## 📂 Datasets
 
