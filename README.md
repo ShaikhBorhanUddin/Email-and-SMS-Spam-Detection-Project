@@ -113,11 +113,11 @@ The model predicts a sample message (visualization shown on left image) as **not
 The model predicts another sample (visualization shown on right image), this time as **spam** with 100% confidence due to the strong influence of multiple features that match known spam patterns. Key features like `feature_67 = 118.00`, `feature_60 = 590.00`, `feature_91 = 130.00`, and `feature_83 = 135.00` fall into specific ranges that the model has learned are highly indicative of spam. Additionally, `feature_41 = 0.00` and `feature_53 = 0.00` contribute further support, signaling a lack of characteristics typical in legitimate messages. Although a couple of features—such as `feature_56 = 0.00` and `feature_87 = 11.00` suggest non-spam behavior, their impact is weak compared to the dominant spam-aligned features. This strong cumulative signal drives the model to confidently classify the message as spam.
 
 ## 🧠 Key Takeaway
-- Text preprocessing with NLTK and Scikit-learn
-- CNN architecture for text classification
-- Traditional ML classifiers: Logistic Regression, Naive Bayes, SVM
-- Performance metrics: Accuracy, Precision, Recall, F1-Score
-- Visualizations via Tableau
+- Implemented multiple machine learning models (Naive Bayes, Logistic Regression, Random Forest, SVM, and more) to detect spam in both email and SMS messages.
+- Performed thorough text preprocessing including tokenization, stopword removal, and stemming to clean and prepare data.
+- Evaluated models using accuracy and confusion matrix to ensure robust performance.
+- Demonstrated the difference in spam characteristics between short-text (SMS) and long-text (email) datasets.
+- Visualized dataset distribution and model performance for clearer insights and interpretability.
 
 ## Technology Used
 
