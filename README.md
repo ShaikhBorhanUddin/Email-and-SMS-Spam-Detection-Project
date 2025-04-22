@@ -85,22 +85,23 @@ In summary, ML models are fast and efficient for short text (SMS) classification
 
 ## 🧩 Confusion Matrices
 
-Confusion matrix generated for all models are included in this section.
+The confusion matrices further validate the performance trends observed in the accuracy charts.
 
 <p align="center">
   <img src="https://github.com/ShaikhBorhanUddin/Spam-Detection-With-Machine-Learning/blob/main/images/cm_5572.png?raw=true" alt="Confusion Matrix (5.5K Dataset)" width="52.82%" />
   <img src="https://github.com/ShaikhBorhanUddin/Spam-Detection-With-Machine-Learning/blob/main/images/cm_190K.png?raw=true" alt="Confusion Matrix (190K Dataset)" width="45%" />
 </p>
 
-The image on the left shows all 8 machine learning model's confusion matrix for `SMS Spam Collection Dataset`. It is evident that all models struggled to identify spams (due to imbalanced dataset). The image on right shows 5 machine learning model's confusion matrix for `190K Spam-Ham Email Dataset`. Logistic regression, MultinomialNB and XGBoost showed excellent performance on classification due to large and balanced dataset.
+In the first confusion matrix (ML models on the SMS Spam Collection Dataset), the top-performing models like Multinomial Naive Bayes and Logistic Regression demonstrated strong separation between spam and ham messages. Most predictions fell along the diagonal, indicating high true positive and true negative rates. False positives (ham classified as spam) were minimal, which is crucial to avoid user frustration from legitimate messages being blocked. The second matrix (ML models on the 190K Spam-Ham Email Dataset) revealed a different picture. Although some models still achieved decent overall accuracy, they began to struggle with class balance and longer message complexity. This was reflected in an increase in both false positives and false negatives. Specifically, models like Random Forest and MLPClassifier showed a noticeable drop in precision, misclassifying a higher number of legitimate emails as spam.
 
 <p align="center">
   <img src="https://github.com/ShaikhBorhanUddin/Spam-Detection-With-Machine-Learning/blob/main/images/cnn_cm_5572.png?raw=true" alt="CNN Confusion Matrix (5.5K Dataset)" width="48.29%" />
   <img src="https://github.com/ShaikhBorhanUddin/Spam-Detection-With-Machine-Learning/blob/main/images/cnn_cm_190K.png?raw=true" alt="CNN Confusion Matrix (190K Dataset)" width="49.5%" />
 </p>
 
-Confusion Matrix for CNN model are shown in above 2 images. From the images it is evident that, size of dataset impacts deep learning model's classification capability.
+The third confusion matrix (CNN model on the SMS dataset) showed solid performance, similar to ML models, but with a slightly more conservative approach—fewer false positives, but occasionally missing some spam (false negatives). This suggests the CNN model applied stricter criteria in identifying spam in short texts, favoring precision over recall. However, the fourth matrix (CNN model on the email dataset) highlighted the model’s true advantage. The CNN achieved excellent separation between spam and ham, with a well-balanced distribution across all four quadrants. False positives and false negatives were significantly reduced compared to the traditional ML models, confirming the CNN’s effectiveness at capturing complex patterns in long-form messages. This balance between precision and recall is critical in spam detection, where both types of misclassification can carry real-world consequences.
 
+In conclusion, while ML models perform reliably on smaller, simpler datasets, CNNs demonstrate superior performance in large-scale, real-world spam detection scenarios, as clearly supported by the confusion matrix visualizations.
 ## 🔥 LIME Visualizations
 
 Numerous visualization were generated with Lime for CNN model. Two sample visualizations are included in this section.
