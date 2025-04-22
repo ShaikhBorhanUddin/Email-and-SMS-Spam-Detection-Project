@@ -54,7 +54,7 @@ This project follows a clear and structured pipeline to build, train, and interp
 
 ## 🚀 Models & Experiments
 
-All test were done on google colab environment. Since `SMS Spam Collection Dataset` is smaller in size, all 8 machine learning algorithm was tried on it first. It was a bit time consuming training the models in cpu, so for the larger `190K Spam-Ham Email Dataset` was trained on A100 gpu. Even with gpu support, Random Forest, SVC and MLPClassifier were unsuitable for `190K Spam-Ham Email Dataset`. Both datasets were trained on gpu for customized CNN model. Links of all .ipynb files related to tests are given in the following chart. Since some outputs are truncated in github, original files from colab environment are also linked here.
+All experiments were conducted in the Google Colab environment. Due to its smaller size, the `SMS Spam Collection Dataset` was used to test all eight machine learning algorithms initially. However, training these models on CPU proved to be time-consuming. For the larger `190K Spam-Ham Email Dataset`, training was performed on an A100 GPU to improve efficiency. Despite the GPU support, models such as Random Forest, SVC, and MLPClassifier were not well-suited for the larger dataset due to their extended training time and resource demands. Both datasets were also used to train a custom CNN model, leveraging GPU acceleration for optimal performance. A table containing links to all related .ipynb files is provided below. Since GitHub may truncate some output cells, direct links to the original Colab notebooks are also included for complete access.
 
 | Notebook | Dataset | Model Type | GitHub Link | Colab Link |
 |---------|--------|----------|------|--------|
@@ -131,7 +131,9 @@ This project leverages a combination of machine learning and deep learning frame
 - Visualization: `Matplotlib` `Seaborn` `Lime`
 - Development Environment: `Jupyter Notebook` `Google Colab`
 
-## Future Development
+## 🚧 Future Development
+
+This project establishes a solid foundation for spam detection using both machine learning and deep learning techniques. There are several areas for future improvement. First, model optimization can be explored by fine-tuning hyperparameters and experimenting with ensemble methods to further enhance the accuracy and robustness of the model. Additionally, advanced deep learning architectures such as LSTM, BiLSTM, or Transformer-based models like BERT could be incorporated to better capture the contextual information in longer text messages, improving detection performance. Another potential area for development is the creation of a real-time spam filtering system, which could be implemented as an application or API using frameworks like FastAPI or Flask. Expanding the system to support multilingual spam detection would make it more versatile and applicable in diverse global contexts. Further efforts could also focus on improving the explainability and interpretability of the models by integrating tools like SHAP or LIME, offering better insights into how predictions are made and increasing transparency. To ensure the model remains effective in the face of evolving spam tactics, it would be beneficial to expand the dataset with more diverse and recent examples. Finally, deploying the model as a web or mobile application would allow for easier access and real-time use by end-users.
 
 ## Licence
 
