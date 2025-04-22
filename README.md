@@ -142,8 +142,21 @@ This project leverages a combination of machine learning and deep learning frame
 
 This project establishes a solid foundation for spam detection using both machine learning and deep learning techniques. There are several areas for future improvement. First, model optimization can be explored by fine-tuning hyperparameters and experimenting with ensemble methods to further enhance the accuracy and robustness of the model. Additionally, advanced deep learning architectures such as LSTM, BiLSTM, or Transformer-based models like BERT could be incorporated to better capture the contextual information in longer text messages, improving detection performance. Another potential area for development is the creation of a real-time spam filtering system, which could be implemented as an application or API using frameworks like FastAPI or Flask. Expanding the system to support multilingual spam detection would make it more versatile and applicable in diverse global contexts. Further efforts could also focus on improving the explainability and interpretability of the models by integrating tools like SHAP, offering better insights into how predictions are made and increasing transparency. To ensure the model remains effective in the face of evolving spam tactics, it would be beneficial to expand the dataset with more diverse and recent examples. Finally, deploying the model as a web or mobile application would allow for easier access and real-time use by end-users.
 
-## Licence
+## 📄 License
 
-## Contact
+This project is licensed under the MIT License — a permissive open-source license that allows reuse, modification, and distribution with attribution. You are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the project, provided that the original copyright and license notice are included in all copies or substantial portions of the software.
+
+For more details, refer to the LICENSE file in this repository.
+
+## 🤝 Contact
+
+If you have any questions or would like to connect, feel free to reach out!
+
+**Shaikh Borhan Uddin**  
+📧 Email: [`shaikhborhanuddin@gmail.com`](mailto:shaikhborhanuddin@gmail.com)  
+🔗 [`LinkedIn`](https://www.linkedin.com/in/shaikh-borhan-uddin-905566253/)  
+🌐 [`Portfolio`](https://github.com/ShaikhBorhanUddin)
+
+Feel free to fork the repository, improve the queries, or add visualizations!
 
 
