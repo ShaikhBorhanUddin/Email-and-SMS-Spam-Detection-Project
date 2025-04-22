@@ -14,6 +14,7 @@
 </p>
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Spam-Detection-With-Machine-Learning/blob/main/images/title_image_mod3.png?raw=true)
+
 ## 📌 Overview
 
 This project focuses on building a robust spam detection system using both machine learning and deep learning techniques, targeting two distinct types of data: SMS messages and emails. The goal is to classify incoming messages as either "spam" or "ham" (not spam) with high accuracy, precision, and efficiency. Two publicly available datasets were used:
