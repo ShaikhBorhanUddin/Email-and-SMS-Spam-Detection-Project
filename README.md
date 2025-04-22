@@ -119,7 +119,17 @@ The model predicts another sample (visualization shown on right image), this tim
 - Demonstrated the difference in spam characteristics between short-text (SMS) and long-text (email) datasets.
 - Visualized dataset distribution and model performance for clearer insights and interpretability.
 
-## Technology Used
+## 🛠️ Technology Used
+
+This project leverages a combination of machine learning and deep learning frameworks, along with essential data processing and visualization libraries, to build an effective spam detection pipeline for both emails and SMS messages.
+- Programming Language: `Python 3.10+`
+- Machine Learning Frameworks: `Naive Bayes` `Logistic Regression` `Random Forest` `SVM` `XGBoost`
+- Deep Learning Frameworks: `TensorFlow` `Keras` `NumPy` `Pandas`
+- NLTK: `tokenization` `stopword removal` `stemming`
+- Feature Extraction: `TF-IDF Vectorizer` `CountVectorizer`
+- Model Evaluation: `Accuracy` `Precision` `Recall` `F1-score` `Confusion Matrix`
+- Visualization: `Matplotlib` `Seaborn` `Lime`
+- Development Environment: `Jupyter Notebook` `Google Colab`
 
 ## Future Development
 
