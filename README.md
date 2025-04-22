@@ -42,6 +42,14 @@ Email-and-SMS-Spam-Detection-Project
 ```
 
 ## 🔄 Project Workflow
+This project follows a clear and structured pipeline to build, train, and interpret models for detecting spam in SMS and email messages. The steps below outline the end-to-end process from raw data to model explainability and future improvements.
+- Upload Datasets
+- Clean, Preprocess, and Feature Selection
+- Model Selection
+- Train Models
+- See Results
+- Visualize Decisions with Tools
+- Suggest Future Development
 
 
 ## 🚀 Models & Experiments
