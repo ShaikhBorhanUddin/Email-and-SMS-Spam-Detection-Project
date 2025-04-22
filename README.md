@@ -38,9 +38,14 @@ The **[`190K Spam-Ham Email Dataset`](https://www.kaggle.com/datasets/meruvuliki
 Email-and-SMS-Spam-Detection-Project
 │
 ├── Dataset/                # Contains raw CSV files
-├── src/                    # Model training, preprocessing scripts
-├── Images/                 # Tableau visualizations
-│
+├── src/                    # Model training, preprocessing scripts                 
+│     |
+|     ├──   CNN_Spam_Detection_Dataset_214843.ipynb
+|     ├──   CNN_Spam_Detection_Dataset_5572.ipynb
+|     ├──   ML_Spam_Detection_Dataset_214843.ipynb
+|     ├──   ML_Spam_Detection_Dataset_5572.ipynb
+|
+├── Images/                 # Dataset, Accuracy and Confusion Matrix visualizations
 ├── requirements.txt        # Python dependencies
 ├── Licence                 # MIT License
 └── README.md               # Overview of the project
